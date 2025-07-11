@@ -119,7 +119,3 @@ Connect the **MCP9808** high-precision digital temperature sensor to the **ESP32
 | **Temp Sensor Accuracy**                     | ±0.5°C from calibrated thermometer | ✅        |
 
 These validations simulate **Technology Readiness Level 8** — prototype in operational environment.
-
----
-
-Let me know if you want this exported as a `README.md`, a PDF datasheet, or embedded into a repo. I can also give you a TODO pipeline with checkboxes and deadlines if you’re aiming for project tracking or demo submission.
