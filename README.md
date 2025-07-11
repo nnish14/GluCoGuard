@@ -151,6 +151,7 @@ To simulate continuous glucose tracking, we apply **cubic spline interpolation**
 * ISO 15197:2013 Guidelines
 * IIT Madras, DBT Biosensor Initiative
 * Espressif ESP32-S3 Documentation
+* HUPA-UCM Diabetes Dataset
 
 ---
 
