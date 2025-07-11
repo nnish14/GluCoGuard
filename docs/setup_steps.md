@@ -14,9 +14,9 @@
 
 ## Firmware Setup
 1. Install PlatformIO or Arduino IDE with ESP32 support.
-2. Clone this repository: `git clone https://github.com/<your-username>/GluCoGuard.git`.
-3. Open `firmware/src/main.ino` and configure `firmware/platformio.ini`.
-4. Upload firmware to ESP32 S3.
+2. Clone this repository: `git clone https://github.com/nnish14/GluCoGuard.git`.
+4. Open `firmware/src/main.ino` and configure `firmware/platformio.ini`.
+5. Upload firmware to ESP32 S3.
 
 ## Testing
 1. Interpolate glucometer data for continuous monitoring (5-minute intervals).
