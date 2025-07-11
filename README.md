@@ -1,9 +1,7 @@
 # GluCoGuard: Smart Wearable Patch for Diabetes Monitoring
 
-> **Team:** Stalkfish
-> **Institution:** B.M.S College of Engineering, Bangalore
-> **Hackathon:** Sensor Hackathon (Pulse Track)
-
+**Team:** Stalkfish
+**Institution:** B.M.S College of Engineering, Bangalore
 ---
 
 ## 🧪 Overview
