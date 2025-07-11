@@ -11,7 +11,6 @@
 ## Data Collection
 1. Take 5–10 glucometer readings at 1-hour intervals (50–300 mg/dL).
 2. Record MCP9808 temperature simultaneously.
-3. Save in `testLog/Log/breathing.data.csv`.
 
 ## Firmware Setup
 1. Install PlatformIO or Arduino IDE with ESP32 support.
