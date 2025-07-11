@@ -1,7 +1,3 @@
-Here's a technically detailed explanation of how you can **interpolate a higher-resolution glucose time series (e.g., 192 data points)** from an original set of **48 measurements** using mathematical techniques:
-
----
-
 ## 📊 **Interpolating Glucose Data: Technical Report**
 
 ### **Objective**
