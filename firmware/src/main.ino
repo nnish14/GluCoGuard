@@ -29,6 +29,9 @@ const float glucoseProfile[] = {
 };
 const int profileSize = sizeof(glucoseProfile) / sizeof(glucoseProfile[0]);
 const unsigned long cycleDurationMs = 24UL * 60UL * 60UL * 1000UL;  // 24 hours
+unsigned long minutes = millis() / 60000;
+
+
 
 void setup() {
   Serial.begin(115200);
@@ -75,6 +78,10 @@ void loop() {
 
   // Read real temperature
   float tempC = tempsensor.readTempC();
+  float tempCS = 27.31;
+
+  char uptimeStr[32];
+  snprintf(uptimeStr, sizeof(uptimeStr), "%lu minutes", minutes);
 
   // Build JSON
   StaticJsonDocument<256> doc;
@@ -82,7 +89,7 @@ void loop() {
   doc["glucose_mg_dL"] = simulatedGlucose;
   doc["temperature_C"] = tempC;
   doc["index"] = index;
-  doc["uptime_ms"] = millis();
+  doc["uptime_ms"] = uptimeStr;
 
   String jsonOut;
   serializeJson(doc, jsonOut);
