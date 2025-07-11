@@ -1,7 +1,3 @@
-Sure thing, Nishchit. Let’s beef this up into something that reads like it's out of a NASA build log — clear, technical, and with zero fluff. Here's the *"Setup Steps"* made more descriptive, stage-by-stage, including what's really going on under the hood.
-
----
-
 # 🛠️ **Project Setup: GlucoGuard – Smart BLE-Enabled Glucose Monitoring System**
 
 ---
