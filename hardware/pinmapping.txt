@@ -1,0 +1,3 @@
+MCP9808 SDA -> ESP32 S3 IO4 (4.7kΩ pull-up)
+MCP9808 SCL -> ESP32 S3 IO5 (4.7kΩ pull-up)
+Contour Plus Glucometer: Manual calculation CSV
